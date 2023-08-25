@@ -1,0 +1,23 @@
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <nav className='container px-4 pt-10 mx-auto font-bold'>
+        <div className='flex justify-between items-center'>
+            <div className='p-4'>Suap</div>
+            <div >
+                <ul className='flex p-4 items-center'>
+                    <li className='mr-20'>United kingdom</li>
+                    <li className='mx-6'>Sustainabiity</li>
+                    <li className='mx-6'>Blog</li>
+                    <li className='mx-6'>
+                        <button className='button p-3 rounded-md'>Join</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  )
+}
+
+export default Navbar
