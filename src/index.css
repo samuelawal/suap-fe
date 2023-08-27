@@ -10,29 +10,54 @@ body{
 }
 .banner{
   background-image: url(../public/banner.png);
+  background-position: 30% 50%;
+  object-fit: cover;
 }
 .button{
   background-color: #F8DA5B;
 }
-.bubble {
-  content: '';
-  border-top-left-radius:50% 66%;
-  border-top-right-radius: 50% 66%;
-  background-color: #247291;
-  top: 85%;
-  bottom: 0;
-  z-index: 80;
+.section {
   width: 100%;
-  height: 80%;
-  /* height: 65%; */
+  background-color: white;
+  border-top: 0;
+  padding: 36px;
+  padding-bottom: 300px;
+  position: relative;
 }
-.bubble_2{
-  content: '';
-  border-top-left-radius:50% 66%;
-  border-top-right-radius: 50% 66%;
-  background-color: #b9e713;
- top: 100%;
-  z-index: 99;
+.partial-circle {
+  position: relative;
+  height: 100px;
   width: 100%;
-  height: 80%;
+  overflow: hidden;
+}
+
+.partial-circle:before {
+  content: '';
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: white;
+  top: 0;
+}
+.blue{
+  background-color: #247291;
+}
+.blue-partial.partial-circle:before {
+  background-color: #247291;
+}
+.white {
+  background-color: white;
+}
+.yellow{
+  background-color: #FFDD55;
+}
+.white-partial.partial-circle:before {
+  background-color: white;
+}
+.yellow-partial.partial-circle:before {
+  background-color: #FFDD55;
+}
+.mb-start{
+  margin-block-start: -300px;
 }
