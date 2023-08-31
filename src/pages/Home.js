@@ -2,16 +2,17 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import HomeSection from '../components/HomeSection'
 
+
 const Home = () => {
   return (
     <>
-    <section className='banner bg-cover'>
-            <div className='bg-[#bcc2c6] h-[1200px] opacity-[0.85] z-10'>
+    <section className='bg-cover banner'>
+            <div className='overlay-div h-[1000px] z-10'>
                 <Navbar/>
-                <HomeSection className="z-50"/>
+                <HomeSection className="z-50 absolute"/>
             </div>
     </section>
-    <section className='mt-[-90px]'>
+    <section className='mt-[-200px]'>
     <div class="partial-circle blue-partial"></div>
     <section className='section blue mb-[60px]'>
     <h3 className='text-4xl text-center text-white p-5'>Why you should Suap it </h3>

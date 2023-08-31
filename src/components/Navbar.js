@@ -7,10 +7,10 @@ const Navbar = () => {
             <div className='p-4'><Link to="/">Suap</Link></div>
             <div >
                 <ul className='flex p-4 items-center'>
-                    <li className='mr-20'>United kingdom</li>
-                    <li className='mx-6'>Sustainabiity</li>
-                    <li className='mx-6'>Blog</li>
-                    <li className='mx-6'>
+                    <li className='mr-20 font-black'>United kingdom</li>
+                    <li className='mx-6 font-black'>Sustainabiity</li>
+                    <li className='mx-6 font-black'>Blog</li>
+                    <li className='mx-6 font-black'>
                         <button className='button p-3 rounded-md'><Link to="/join-us">Join</Link></button>
                     </li>
                 </ul>

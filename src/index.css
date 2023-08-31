@@ -1,17 +1,18 @@
- @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family:  'Darker Grotesque', sans-serif;
   color: black;
   font-size: 16px;
 }
 .banner{
   background-image: url(../public/banner.png);
-  background-position: 30% 50%;
-  object-fit: cover;
+  background-position: 0 15%;
+  background-size: cover;
+  /* object-fit: cover; */
 }
 .button{
   background-color: #F8DA5B;
@@ -61,3 +62,12 @@ body{
 .mb-start{
   margin-block-start: -300px;
 }
+
+
+.overlay-div {
+  background: linear-gradient(rgba(188, 194, 198, 0.5), rgba(188, 194, 198, 0.5)), #BCC2C6;
+  opacity: .87;
+}
+
+
+
