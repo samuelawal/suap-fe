@@ -5,7 +5,7 @@ const HomeSection = () => {
   return (
  <section className='mt-20 pt-1'>
     <div className='container px-4 mx-auto'>
-    <h1 className='text-7xl font-black leading-snug'>
+    <h1 className='md:text-7xl text-5xl font-black leading-snug'>
         Exchange your <span className='text-[yellow]'><Typewriter
           loop
           cursor

@@ -17,9 +17,9 @@ const Home = () => {
     <section className='section blue mb-[60px]'>
     <h3 className='text-4xl text-center text-white p-5'>Why you should Suap it </h3>
         <div className='mx-auto px-4 container pt-8 text-white '>
-              <div className='flex justify-between mt-4' >
+              <div className='flex md:flex-row flex-col justify-between mt-4' >
                 <div>
-                <div className='flex items-center px-12'>
+                <div className='flex items-center md:px-12 px-0'>
                   <img src='./home.png' alt='home'/>
                   <div className='ml-5'>
                     <h3 className='text-3xl'>Buy and sell with neighbours</h3>
@@ -29,7 +29,7 @@ const Home = () => {
                   </div>
                   
                 </div>
-                <div className='flex items-center mt-24 px-12'>
+                <div className='flex items-center mt-24 md:px-12 px-0'>
                   <img src='./camera.png' alt='home'/>
                   <div className='ml-5'>
                     <h3 className='text-3xl'>Video-driven experience</h3>
@@ -41,7 +41,7 @@ const Home = () => {
                 </div>
                 </div>
                 <div>
-                <div className='flex items-center px-12'>
+                <div className='flex items-center mt-24 md:mt-0 md:px-12 px-0'>
                   <img src='./market.png' alt='home'/>
                   <div className='ml-5'>
                     <h3 className='text-3xl'>Embrace Sustainable Commerce</h3>
@@ -50,7 +50,7 @@ const Home = () => {
                     </div>
                   </div>              
                 </div>
-                <div className='flex items-center mt-24 px-12'>
+                <div className='flex items-center mt-24 md:px-12 px-0'>
                   <img src='./commerce.png' alt='home'/>
                   <div className='ml-5'>
                     <h3 className='text-3xl'>Buyer-Centric Marketplace</h3>
@@ -68,9 +68,9 @@ const Home = () => {
       <section className='mb-start mb-[80px]'>
     <div class="partial-circle white-partial"></div>
     <section className='section '>
-    <h3 className='font-bold text-center text-5xl'>How Suap works for buyer</h3>
-        <div className='container mx-auto px-4 mt-8'>
-          <div className='grid grid-cols-4 gap-8 place-items-center'>
+    <h3 className='font-bold text-center md:text-5xl text-4xl'>How Suap works for buyer</h3>
+        <div className='container mx-auto md:px-4 px-0 mt-8'>
+          <div className='grid md:grid-cols-4 grid-cols-2 gap-8 place-items-center'>
             <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./search.png' alt='search' className="mx-auto"/></div>
                 <p className='text-center mt-3 font-bold text-[#ffdd55]'>Find Item/Post <br/>request</p>
@@ -89,9 +89,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <h3 className='font-bold text-center mt-32 text-5xl'>How Suap works for Sellers</h3>
+        <h3 className='font-bold text-center mt-32 md:text-5xl text-4xl'>How Suap works for Sellers</h3>
         <div className='container mx-auto px-4 mt-8'>
-          <div className='grid grid-cols-4 gap-8 place-items-center'>
+          <div className='grid md:grid-cols-4 grid-cols-2 gap-8 place-items-center'>
           <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./cam.png' alt='search' className="mx-auto"/></div>
                 <p className='text-center mt-3 fold-bold text-[#ffdd55]'>Post a video of <br/> the item.</p>
@@ -125,7 +125,7 @@ const Home = () => {
     <div class="partial-circle white-partial"></div>
     <section className='section '>
         <div className='container mx-auto px-8 mt-8'>
-          <div className='flex justify-between'>
+          <div className='flex md:flex-row flex-col justify-between'>
             <div>
               <p className='font-bold text-2xl mb-8'>Suap</p>
                 <p className="mb-4">United Kingdom</p>

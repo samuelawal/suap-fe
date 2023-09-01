@@ -25,6 +25,7 @@ body{
   padding-bottom: 300px;
   position: relative;
 }
+/*  */
 .partial-circle {
   position: relative;
   height: 100px;
@@ -44,6 +45,11 @@ body{
 .blue{
   background-color: #247291;
 }
+@media screen and (max-width: 768px) {
+  .section.blue{
+    padding: 20px;
+  }
+}
 .blue-partial.partial-circle:before {
   background-color: #247291;
 }
@@ -53,6 +59,7 @@ body{
 .yellow{
   background-color: #FFDD55;
 }
+
 .white-partial.partial-circle:before {
   background-color: white;
 }

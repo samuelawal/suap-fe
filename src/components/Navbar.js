@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className='container px-4 pt-10 mx-auto font-bold'>
         <div className='flex justify-between items-center'>
             <div className='p-4'><Link to="/">Suap</Link></div>
-            <div >
+            <div className='md:block hidden'>
                 <ul className='flex p-4 items-center'>
                     <li className='mr-20 font-black'>United kingdom</li>
                     <li className='mx-6 font-black'>Sustainabiity</li>
