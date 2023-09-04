@@ -1,10 +1,11 @@
 import React from 'react'
 import {Typewriter} from 'react-simple-typewriter';
+import { Link } from 'react-router-dom';
 
 const HomeSection = () => {
   return (
  <section className='mt-20 pt-1'>
-    <div className='container px-4 mx-auto'>
+    <div className='container px-8 mx-auto'>
     <h1 className='md:text-7xl text-5xl font-black leading-snug'>
         Exchange your <span className='text-[yellow]'><Typewriter
           loop
@@ -20,7 +21,7 @@ const HomeSection = () => {
     </h1>
     <p className='pt-12 text-4xl font-bold text-[#247291]'>Never loose value with Suap</p>
     <div className='mt-24'>
-        <button className='button rounded-md font-bold text-4xl p-4'>Join now</button>
+    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScKJjMf47FsTZIiDqs_0C5XhzMpQFrHiWBJ1V-FlUP3mz5vHQ/viewform?usp=sf_link"> <button className='button rounded-md font-bold text-4xl p-4'>Join now</button></Link>
     </div>
     {/* <div className='mt-28 '>
         <div className='grid grid-cols-3 place-items-center gap-8 relative'>

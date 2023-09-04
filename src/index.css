@@ -47,7 +47,7 @@ body{
 }
 @media screen and (max-width: 768px) {
   .section.blue{
-    padding: 20px;
+    padding: 0;
   }
 }
 .blue-partial.partial-circle:before {
