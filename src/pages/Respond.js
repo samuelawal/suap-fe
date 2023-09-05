@@ -33,9 +33,9 @@ const getRandomItem = () => {
     <div>
         {/* <Navbar/> */}
         <section className='container px-8 mx-auto'>
-            <div className='mx-auto w-[600px]'>
+            <div className='mx-auto md:w-[600px] w-full'>
             <div>  <img src='./responder.png' alt='responder' className='mx-auto' /></div>
-            <h2 className='font-black text-center mt-4 text-5xl'>
+            <h2 className='font-black text-center mt-4 md:text-5xl text-3xl'>
             {randomObject && (
               <span>
                 {randomObject.intro}{' '}
