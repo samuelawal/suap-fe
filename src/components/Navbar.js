@@ -11,7 +11,7 @@ const Navbar = () => {
                     <li className='mx-6 font-black'>Sustainabiity</li>
                     <li className='mx-6 font-black'>Blog</li>
                     <li className='mx-6 font-black'>
-                    <Link to="https://forms.gle/zXXXQJyd8QKoH3SP7"><button className='button p-3 rounded-md'>Join</button></Link>
+                    <Link to="/join-us"><button className='button p-3 rounded-md'>Join</button></Link>
                     </li>
                 </ul>
             </div>
