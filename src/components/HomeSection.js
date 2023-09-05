@@ -21,7 +21,7 @@ const HomeSection = () => {
     </h1>
     <p className='pt-12 md:text-4xl text-2xl font-bold text-[#247291]'>Never loose value with Suap</p>
     <div className='mt-24'>
-    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScKJjMf47FsTZIiDqs_0C5XhzMpQFrHiWBJ1V-FlUP3mz5vHQ/viewform?usp=sf_link"> <button className='button rounded-md font-bold text-4xl p-4'>Join now</button></Link>
+    <Link to="https://docs.google.com/forms/d/e/1FAIpQLScKJjMf47FsTZIiDqs_0C5XhzMpQFrHiWBJ1V-FlUP3mz5vHQ/viewform?usp=sf_link"> <button className='button rounded-md font-bold text-4xl p-4'>Get Early Access</button></Link>
     </div>
     {/* <div className='mt-28 '>
         <div className='grid grid-cols-3 place-items-center gap-8 relative'>
