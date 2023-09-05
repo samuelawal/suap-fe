@@ -74,24 +74,24 @@ const Home = () => {
       <section className='mb-start mb-[80px]'>
     <div className="partial-circle white-partial"></div>
     <section className='section '>
-    <h3 className='font-bold text-center md:text-4xl text-3xl'>How Suap works for buyer</h3>
+    <h3 className='font-bold text-center md:text-4xl text-3xl'>How Suap works for Buyer</h3>
         <div className='container mx-auto md:px-4 px-0 mt-8'>
           <div className='grid md:grid-cols-4 grid-cols-2 gap-8 place-items-center'>
             <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./search.png' alt='search' className="mx-auto"/></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Find Item/Post <br/>request</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Find Item/Post <br/>request</p>
             </div>
             <div>
             <div className='p-5 bg-[#FFDD55] rounded-md mx-auto'><img src='./money.png' alt='search'  className="mx-auto" /></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Pay Seller</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Pay Seller</p>
             </div>
             <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./truck.png' alt='search' className="mx-auto"/></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Receive Item</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Receive Item</p>
             </div>
             <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./escrow.png' alt='search' className="mx-auto"/></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Receive Escrow</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Receive Escrow</p>
             </div>
           </div>
         </div>
@@ -100,19 +100,19 @@ const Home = () => {
           <div className='grid md:grid-cols-4 grid-cols-2 gap-8 place-items-center'>
           <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./cam.png' alt='search' className="mx-auto"/></div>
-                <p className='text-center mt-3 fold-bold text-[#ffdd55]'>Post a video of <br/> the item.</p>
+                <p className='text-center mt-3 fold-bold text-[#ffdd55] text-lg'>Post a video of <br/> the item.</p>
             </div>
             <div>
               <div className='p-4 bg-[#FFDD55] rounded-md mx-auto'><img src='./money.png' alt='search' className="mx-auto"/></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Sell to buyer.</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Sell to buyer.</p>
             </div>
             <div>
               <div className='p-3  bg-[#FFDD55] rounded-md mx-auto'><img src='./escrow.png' alt='search' className='mx-auto'/></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Confirm payment <br/> in escrow.</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Confirm payment <br/> in escrow.</p>
             </div>
             <div>
               <div className='p-3 bg-[#FFDD55] rounded-md mx-auto'><img src='./escrow.png' alt='search' className="mx-auto"/></div>
-                <p className='text-center mt-3 font-bold text-[#ffdd55]'>Deliver & receive <br/> payment.</p>
+                <p className='text-center mt-3 font-bold text-[#ffdd55] text-lg'>Deliver & receive <br/> payment.</p>
             </div>
           </div>
         </div>
