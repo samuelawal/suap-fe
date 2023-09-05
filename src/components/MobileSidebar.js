@@ -14,7 +14,7 @@ const links = [
         title: 'Sustainability',
     }, 
     {
-        path: '/join-us',
+        path: "https://docs.google.com/forms/d/e/1FAIpQLScKJjMf47FsTZIiDqs_0C5XhzMpQFrHiWBJ1V-FlUP3mz5vHQ/viewform?usp=sf_link",
         title: 'Join'
     }
 ]
