@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 const Join = () => {
   return (
    <>
-   <Navbar/>
+ 
    <section className='container px-4 mx-auto mt-8 pt-8'>
         <form className='p-8 border'>
             <h3 className='font-bold text-3xl mb-2 text-center'>Join us</h3>

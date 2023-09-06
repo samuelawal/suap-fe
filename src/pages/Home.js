@@ -1,22 +1,28 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from '../components/Navbar'
+import MobileSidebar from '../components/MobileSidebar'
 import HomeSection from '../components/HomeSection'
 
 
 const Home = () => {
+  const [isMobileBarOpen, setIsMobileBarOpen] = useState(false);
+  const toggleMobileBar = () => {
+    setIsMobileBarOpen(!isMobileBarOpen)
+  }
   return (
     <>
     <section className='bg-cover banner'>
             <div className='overlay-div h-[1000px] z-10'>
-                <Navbar/>
+                <Navbar toggleMobileBar={toggleMobileBar}/>
+                <MobileSidebar isMobileBarOpen={isMobileBarOpen} toggleMobileBar={toggleMobileBar}/>
                 <HomeSection className="z-50 absolute"/>
             </div>
     </section>
     <section className='mt-[-200px]'>
-    <div class="partial-circle blue-partial"></div>
+    <div className="partial-circle blue-partial"></div>
     <section className='section blue mb-[60px]'>
     <h3 className='text-4xl text-center text-white p-5'>Why you should Suap it </h3>
-        <div className='mx-auto px-4 container pt-8 text-white '>
+        <div className='mx-auto px-4 md:pb-0 pb-[400px] container pt-8 text-white '>
               <div className='flex md:flex-row flex-col justify-between mt-4' >
                 <div>
                 <div className='flex items-center md:px-12 px-0'>
@@ -66,7 +72,7 @@ const Home = () => {
     </section>
       </section>
       <section className='mb-start mb-[80px]'>
-    <div class="partial-circle white-partial"></div>
+    <div className="partial-circle white-partial"></div>
     <section className='section '>
     <h3 className='font-bold text-center md:text-5xl text-4xl'>How Suap works for buyer</h3>
         <div className='container mx-auto md:px-4 px-0 mt-8'>
@@ -113,7 +119,7 @@ const Home = () => {
     </section>
       </section>
       <section className='mb-start'>
-    <div class="partial-circle yellow-partial"></div>
+    <div className="partial-circle yellow-partial"></div>
     <section className='section yellow mb-[60px]'>
         <div className='container mx-auto px-4 mt-12 mb-24 text-center'>
     <h3 className='font-bold text-center text-5xl'>Join the suap community</h3>
@@ -122,7 +128,7 @@ const Home = () => {
     </section>
       </section>
       <section className='mb-start mb-[80px]'>
-    <div class="partial-circle white-partial"></div>
+    <div className="partial-circle white-partial"></div>
     <section className='section '>
         <div className='container mx-auto px-8 mt-8'>
           <div className='flex md:flex-row flex-col justify-between'>

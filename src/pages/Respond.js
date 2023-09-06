@@ -31,7 +31,7 @@ const getRandomItem = () => {
 },[])
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <section className='container px-8 mx-auto'>
             <div className='mx-auto w-[600px]'>
             <div>  <img src='./responder.png' alt='responder' className='mx-auto' /></div>
